@@ -9,6 +9,7 @@ namespace devops
     public class Startup
     {
         //Comment for testing pipeline github to Azure Devops
+        //testing pipeline from github commit
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
