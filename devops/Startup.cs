@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -11,7 +7,10 @@ using Microsoft.Extensions.Hosting;
 namespace devops
 {
     public class Startup
-    {
+    {/// <summary>
+    /// Comment for github test
+    /// </summary>
+    /// <param name="configuration"></param>
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
