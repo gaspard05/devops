@@ -7,10 +7,8 @@ using Microsoft.Extensions.Hosting;
 namespace devops
 {
     public class Startup
-    {/// <summary>
-    /// Comment for github test
-    /// </summary>
-    /// <param name="configuration"></param>
+    {
+        //Comment for testing pipeline github to Azure Devops
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
